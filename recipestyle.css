@@ -1,0 +1,9 @@
+.recipes{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-container{
+    display: flex;
+    justify-content: space-around;
+}

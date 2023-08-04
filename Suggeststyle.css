@@ -1,0 +1,66 @@
+/* CSS Reset */
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#F8EDEB;
+    
+}
+
+/* Global styles */
+.body-div{
+     display: flex;
+     flex-direction: column;
+     color:#FEC89A;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color:#F8EDEB;
+     text-align: center;
+     height: 100vh;
+}
+
+
+/* header */
+header{
+    background-color: #4A4E69;
+    text-align: center; 
+}
+
+nav ul{
+   margin: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav li:hover{
+    text-decoration: underline;
+    color:#9A8C98 ;
+}
+
+nav a{
+    text-decoration: none;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    text-align: left;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #4A4E69;
+    width: 100%;
+}
+
